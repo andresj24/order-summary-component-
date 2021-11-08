@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /*1rem = 10px*/
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+    /* outline: 1px solid red; */
+}
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1.6rem;
+    background-image: url(../images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--dark-blue);
+}
+main {
+    width: 400px;
+    max-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1rem 3rem 0 3rem;
+}
+figure {
+    width: 46rem;
+    max-width: 100%;
+    height: 15rem;
+    max-height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+figure img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem 1rem 0px 0px;
+}
+.content {
+    height: 45rem;
+    margin-top: 0;
+    text-align: center;
+    background-color: var(--very-pale-blue);
+    border-radius: 0 0 1rem 1rem;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
