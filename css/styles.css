@@ -9,7 +9,7 @@
 }
 html {
     box-sizing: border-box;
-    font-size: 62.5%; /*1rem = 10px*/
+    font-size: 50%; /*1rem = 10px*/
 }
 *, *:before, *:after {
     box-sizing: inherit;
@@ -21,7 +21,7 @@ body {
     background-image: url(../images/pattern-background-mobile.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    color: var(--dark-blue);
+    color: var(--desaturated-blue);
 }
 main {
     width: 400px;
@@ -32,12 +32,12 @@ main {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    padding: 1rem 3rem 0 3rem;
+    padding: 3rem 3rem 0 3rem;
 }
 figure {
     width: 46rem;
     max-width: 100%;
-    height: 15rem;
+    height: 20rem;
     max-height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -46,15 +46,89 @@ figure {
 figure img {
     width: 100%;
     height: 100%;
-    border-radius: 1rem 1rem 0px 0px;
+    border-radius: 2rem 2rem 0px 0px;
 }
 .content {
     height: 45rem;
     margin-top: 0;
     text-align: center;
-    background-color: var(--very-pale-blue);
-    border-radius: 0 0 1rem 1rem;
+    background-color: #fff;
+    border-radius: 0 0 2rem 2rem;
 }
+.content h1 {
+    margin: 3.5rem auto 2.5rem auto;
+    font-size: 2.6rem;
+    font-weight: 900;
+    color: var(--dark-blue);
+}
+.content .info {
+    margin: 0 2rem 3rem 2rem;
+    padding: 0 5rem 0 5rem;
+    line-height: 1.7;
+}
+.color-plan {
+    width: 35rem;
+    height: 9rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 2rem 0 2rem;
+    background-color: var(--very-pale-blue);
+    border-radius: 2rem;
+}
+.plan {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.plan #icon {
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--pale-blue);
+    border-radius: 100%;
+}
+.plan #icon i {
+    font-size: 1.8rem;
+}
+.plan .text {
+    margin-left: 2.5rem;
+    line-height: 1.5;
+}
+.plan .text span {
+    font-weight: 900;
+    color: var(--dark-blue);
+}
+.enlace{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.enlace a {
+    color: var(--bright-blue);
+}
+
+.blue-btn {
+    position: relative;
+    width: 35rem;
+    height: 5rem;
+    margin: 3rem auto 0 auto;
+    background-color: var(--bright-blue);
+    border-radius: 1rem;
+    box-shadow: 0px 19px 13px 3px rgba(0, 0, 0, 0.17);
+
+    
+}
+.blue-btn a{
+    position: absolute;
+    top: 50%; left: 50%; 
+    transform: translateX(-50%)translateY(-50%);
+    text-decoration: none;
+    color: #fff;
+}
+
 
 .attribution { 
     font-size: 11px; 
