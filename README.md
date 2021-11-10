@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Repositorie](https://github.com/andresj24/order-summary-component-)
+- Solution URL: [Repository](https://github.com/andresj24/order-summary-component-)
 - Live Site URL: [Order Summary Component](https://ordersummary-aj96.netlify.app/)
 
 ## My process
