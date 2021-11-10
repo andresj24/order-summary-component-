@@ -33,7 +33,7 @@ main {
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
-    padding: 3rem 3rem 3rem 3rem;
+    padding: 0rem 3rem 0rem 3rem;
 }
 figure {
     width: 46rem;
@@ -164,6 +164,8 @@ figure img {
     }
     main {
         align-items: center;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
     }
     figure {
         height: 24rem;
